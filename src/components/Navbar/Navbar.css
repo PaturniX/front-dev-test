@@ -1,0 +1,20 @@
+.Navbar *{
+    cursor: pointer;
+  }
+  .Navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: var(--primary-color);
+  }
+  .Navbar h4{
+    color: var(--container-color);
+    font-weight: 300;
+  }
+  
+  .profile.image img{
+    width: 32px;
+    height: 32px;
+  }

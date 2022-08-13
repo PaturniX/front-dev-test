@@ -1,0 +1,41 @@
+.PlaceList{
+    display: flex;
+    justify-content:space-between;
+}
+.PlaceList h1{
+    
+}
+.searchGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.verticalLine{
+    background-color: var(--primary-color);
+    height: 2rem;
+    width: 2px;
+}
+.searchInput{
+    margin: .5rem;
+}
+.select, .search,.Input{
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    font-family: 'Kanit', sans-serif;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.select{
+    width: 10rem;
+    height: 2rem;
+    
+}
+.search{
+    width: 15rem;
+    height: 2rem;
+    box-sizing: border-box;
+    border: none;
+}

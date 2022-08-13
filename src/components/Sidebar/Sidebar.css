@@ -1,0 +1,28 @@
+.Sidebar *{
+    cursor: pointer;
+}
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 5rem;
+    border-top-right-radius: 2.5rem;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sidebar-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sidebar-item img{
+    width: 3.25rem;
+    height: 3.25rem;
+}

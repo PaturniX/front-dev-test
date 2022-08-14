@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 // Css
 import './Navbar.css'
@@ -11,22 +11,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Profile from '../../img/profile.png'
 
 const Navbar = () => {
-
-    const [sticky, setSticky] = useState(false)
-
-        const handleScroll = () =>{
-            if(window.scrollY>1){
-                setSticky(true)
-            }else{
-                setSticky(false)
-                console.log(window.scrollY);
-            }
-        }
-        
-    window.addEventListener("scroll", handleScroll)
-
     return (
-        <div className={sticky ? 'Navbar fixed' : 'Navbar'}>
+        <div className="Navbar">
             <div className="navProfile">
             <NotificationsIcon htmlColor='white' />
             <div className="profile image">

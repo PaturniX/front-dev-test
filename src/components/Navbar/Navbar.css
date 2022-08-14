@@ -26,3 +26,22 @@
   width: 32px;
   height: 32px;
 }
+
+
+/* Responsive */
+
+/* For small devices */
+@media screen and (max-width: 375px) {
+}
+
+
+ /* For medium devices */
+ @media screen and (max-width: 570px) {
+    
+}
+
+
+/* For large devices */
+@media screen and (max-width: 990px) {
+  
+}

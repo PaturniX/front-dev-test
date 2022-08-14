@@ -6,6 +6,7 @@ import Data from "../../Data/example_data.json";
 
 // Css
 import "./Card.css";
+
 // Icons
 import CalendarMonthRoundedIcon from "@mui/icons-material/CalendarMonthRounded";
 import FiberManualRecordRoundedIcon from "@mui/icons-material/FiberManualRecordRounded";
@@ -99,7 +100,7 @@ const Card = () => {
           dataPerPage={9}
           getData={Data}
           navigation={true}
-          getStyle={"Paginater-style"}
+          getStyle={'style-2'}
         />
       </div>
     </div>

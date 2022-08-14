@@ -5,6 +5,7 @@
     width: 100%;
     top: 4rem;
     background-color: var(--bgcolor);
+    transition: .3s;
 }
 .PlaceList.header{
     display: grid;
@@ -41,7 +42,6 @@
 .select{
     width: 12rem;
     height: 2rem;
-    
 }
 .search{
     width: 15rem;
@@ -52,3 +52,58 @@
 .SearchIcon{
     cursor: pointer;
 }
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 375px) {
+    
+    .PlaceList.header{
+        display: none;
+    }
+    .select{
+        width: 7rem;
+    }
+    .search{
+        width: 10rem;
+    }
+  }
+
+
+ @media screen and (max-width: 460px) {
+    .searchGroup{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .PlaceList.header{
+        display: none;
+    }
+ }
+ @media screen and (max-width: 585px) {
+    .PlaceList-Container{
+        top: 4rem;
+        padding-top: 1rem;
+    }
+    .PlaceList.header{
+        font-size: .5rem;
+    }
+    .select{
+        width: 7rem;
+    }
+    .search{
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .PlaceList-Container{
+        top: 4rem;
+        padding-top: 1rem;
+    }
+    .PlaceList.header{
+        font-size: .75rem;
+        grid-template-columns: 1rem auto;
+    }
+  }
+

@@ -1,0 +1,77 @@
+.Card{
+    margin-top: 8rem;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 8rem;
+}
+
+.CompactCard{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 25rem;
+    height: 14rem;
+    border-radius: 1rem;
+    background-color: var(--container-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cardProfile{
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+.cardInfo{
+    margin-left: .75rem;
+}
+.cardInfo>span{
+    font-weight: 700;
+    color: var(--text-color);
+}
+.cardOperate_rate{
+    display: grid;
+    grid-template-columns: 85% 15% ;
+    margin-top: 1rem;
+}
+.cardOperate, .cardRating{
+    display: flex;
+    text-align: center;
+}
+.cardOperate>span{
+    padding-left: .25rem;
+    color: var(--dark-color);
+}
+.cardRating{
+    align-items: center;
+    color: var(--primary-color);
+}
+.cardRating>span{
+    font-weight: 600;
+}
+.cardProfile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.cardImage{
+    width: 100%;
+    height: 9rem;
+    margin-top: .5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+.cardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Paginater{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}

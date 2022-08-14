@@ -1,20 +1,28 @@
-.Navbar *{
-    cursor: pointer;
-  }
-  .Navbar{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 1rem;
-    background-color: var(--primary-color);
-  }
-  .Navbar h4{
-    color: var(--container-color);
-    font-weight: 300;
-  }
-  
-  .profile.image img{
-    width: 32px;
-    height: 32px;
-  }
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 9;
+}
+.navProfile *{
+  cursor: pointer;
+}
+.navProfile{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+.Navbar h4 {
+  color: var(--container-color);
+  font-weight: 300;
+}
+
+.profile.image img {
+  width: 32px;
+  height: 32px;
+}

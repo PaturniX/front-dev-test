@@ -1,20 +1,29 @@
-.PlaceList{
+.PlaceList-Container{
     display: flex;
     justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    top: 4rem;
+    background-color: var(--bgcolor);
 }
-.PlaceList h1{
-    
+.PlaceList.header{
+    display: grid;
+    grid-template-columns: 8rem auto;
+}
+.header h1{
+    grid-column: 2;
+    color: var(--text-color);
 }
 .searchGroup{
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    margin-right: 2rem;
 }
 .verticalLine{
     background-color: var(--primary-color);
     height: 2rem;
-    width: 2px;
+    width: 1.5px;
 }
 .searchInput{
     margin: .5rem;
@@ -24,12 +33,13 @@
     outline: none;
     border: 1px solid var(--primary-color);
     font-family: 'Kanit', sans-serif;
-    padding-left: 1rem;
+    padding-left: .5rem;
     display: flex;
     align-items: center;
+    background-color:var(--container-color);
 }
 .select{
-    width: 10rem;
+    width: 12rem;
     height: 2rem;
     
 }
@@ -38,4 +48,7 @@
     height: 2rem;
     box-sizing: border-box;
     border: none;
+}
+.SearchIcon{
+    cursor: pointer;
 }

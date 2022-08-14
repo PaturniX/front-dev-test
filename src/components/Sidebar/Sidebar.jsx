@@ -4,6 +4,7 @@ import React from 'react'
 import './Sidebar.css'
 // Icon
 import ListRoundedIcon from '@mui/icons-material/ListRounded';
+import { Divider } from '@mui/material';
 
 
 const Sidebar = () => {
@@ -12,6 +13,7 @@ const Sidebar = () => {
         <div className="sidebar-item image">
             <img src="https://icsco.ai/wp-content/uploads/2022/06/logo-no-textbg-svg.svg" alt="" />
         </div>
+        <Divider/>
         <div className="sidebar-item place">
             <ListRoundedIcon 
             htmlColor='white' 
@@ -21,6 +23,7 @@ const Sidebar = () => {
             borderRadius: '10px'}}/>
             <span>Place</span>
         </div> 
+        <Divider/>
     </div>
   )
 }

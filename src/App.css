@@ -6,6 +6,7 @@
   --secondary-color: #0F1E56;
   --light-color: #C3BEBB;
   --lighten-color: #C4D3E9;
+  --bgcolor: #f5f6f8;
 
   /* Text Color */
   --container-color: #fff;
@@ -17,10 +18,12 @@
 body{
   margin: 0;
   padding: 0;
-  min-height: 100%;
+  min-height: 100vh;
+  background: var(--bgcolor);
 }
 .App{
   box-sizing: border-box;
   font-family: 'Kanit', sans-serif;
+
 }
 

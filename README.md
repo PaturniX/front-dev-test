@@ -18,4 +18,10 @@ This project was created with ReactJS by "Panuwat Thapila", Made to be a part of
 5.Project is running
 ![alt text](http://postto.me/216/676.png)
 
+
+6.Responsive design
+
+![alt text](http://postto.me/216/67f.png)
+
+
                                                            &#169; Panuwat. All rights reserved.

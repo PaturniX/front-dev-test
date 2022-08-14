@@ -4,3 +4,4 @@ This project was created with ReactJS by "Panuwat Thapila", Made to be a part of
 
 ## How to install.
 1. You can download this project with "git clone" or "Download zip"
+![alt text](http://postto.me/216/4qh.png)

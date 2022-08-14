@@ -10,3 +10,10 @@ This project was created with ReactJS by "Panuwat Thapila", Made to be a part of
 2.Open project with Code Editor.
 
 3.Open terminal and install module with **"npm install"**
+
+![alt text](http://postto.me/216/67e.png)
+
+4.Run project with **npm start**, Project will start at **localhost:3000**
+
+5.Project is running
+![alt text](http://postto.me/216/676.png)

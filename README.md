@@ -24,4 +24,4 @@ This project was created with ReactJS by "Panuwat Thapila", Made to be a part of
 ![alt text](http://postto.me/216/67f.png)
 
 
-                                         &#169 Panuwat. All rights reserved.
+                                         
